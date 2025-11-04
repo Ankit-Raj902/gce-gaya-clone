@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>gcegaya.ac.in</title>
+  <link rel="stylesheet" href="style10.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <script src="script10.js"></script>
+  <header class="head">
+    <div class="logo-text-container">
+      <div class="geclogo">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY4zuWpMMadjcEcQhckwO6xR7UBQSiOxGCvA6zWgtQ_oDDu2IliBurl8E&s=10">
+      </div>
+      <div class="gcetxt">
+        <h3 id="gcegayatext">GAYA COLLAGE OF ENGINEERING</h3>
+        <p id="gcedept">(Science,Technology and Technical Education Dept.)</p>
+      </div>
+    </div>  
+   <header class="content-list">
+    <nav class="nav-options">
+      <p><i class="fa-solid fa-house-chimney" style="color:white; font-size:10px; "></i> <a href="#" style="text-decoration:none;color:white; font-size:14px;font-weight:370;">Home</a></p>
+      <!-- About Us -->
+<div class="dropdown">
+  <label for="about" class="dropdown-btn">
+    About Us <i class="fa-solid fa-angle-down"></i>
+  </label>
+  <input type="checkbox" id="about" class="dropdown-checkbox">
+  <div class="dropdown-content">
+    <a href="#">Contact Us</a>
+    <a href="#">Feedback</a>
+  </div>
+</div>
+
+<!-- Academics -->
+<div class="dropdown">
+  <label for="academics" class="dropdown-btn">
+    Academics <i class="fa-solid fa-angle-down"></i>
+  </label>
+  <input type="checkbox" id="academics" class="dropdown-checkbox">
+  <div class="dropdown-content">
+    <a href="#">Courses</a>
+    <a href="#">Syllabus</a>
+  </div>
+</div>
+
+<!-- Department -->
+<div class="dropdown">
+  <label for="department" class="dropdown-btn">
+    Department <i class="fa-solid fa-angle-down"></i>
+  </label>
+  <input type="checkbox" id="department" class="dropdown-checkbox">
+  <div class="dropdown-content">
+    <a href="#">CSE</a>
+    <a href="#">ECE</a>
+    <a href="#">ME</a>
+  </div>
+</div>
+
+<!-- Facilities -->
+<div class="dropdown">
+  <label for="facilities" class="dropdown-btn">
+    Facilities & Services <i class="fa-solid fa-angle-down"></i>
+  </label>
+  <input type="checkbox" id="facilities" class="dropdown-checkbox">
+  <div class="dropdown-content">
+    <a href="#">Hostel</a>
+    <a href="#">Library</a>
+  </div>
+</div>
+
+<!-- T & P -->
+<div class="dropdown">
+  <label for="tnp" class="dropdown-btn">
+    T & P <i class="fa-solid fa-angle-down"></i>
+  </label>
+  <input type="checkbox" id="tnp" class="dropdown-checkbox">
+  <div class="dropdown-content">
+    <a href="#">Internships</a>
+    <a href="#">Placements</a>
+  </div>
+</div>
+
+<!-- Activities -->
+<div class="dropdown">
+  <label for="activities" class="dropdown-btn">
+    Activities <i class="fa-solid fa-angle-down"></i>
+  </label>
+  <input type="checkbox" id="activities" class="dropdown-checkbox">
+  <div class="dropdown-content">
+    <a href="#">Events</a>
+    <a href="#">Workshops</a>
+  </div>
+</div>
+
+<!-- Gallery -->
+<div class="dropdown">
+  <label for="gallery" class="dropdown-btn">
+    Gallery <i class="fa-solid fa-angle-down"></i>
+  </label>
+  <input type="checkbox" id="gallery" class="dropdown-checkbox">
+  <div class="dropdown-content">
+    <a href="#">Photos</a>
+    <a href="#">Videos</a>
+  </div>
+</div>
+
+<!-- Approval -->
+<div class="dropdown">
+  <label for="approval" class="dropdown-btn">
+    Approval <i class="fa-solid fa-angle-down"></i>
+  </label>
+  <input type="checkbox" id="approval" class="dropdown-checkbox">
+  <div class="dropdown-content">
+    <a href="#">AICTE</a>
+    <a href="#">Govt. Approval</a>
+  </div>
+</div>
+
+<!-- RTI -->
+<div class="dropdown">
+  <label for="rti" class="dropdown-btn">
+    RTI <i class="fa-solid fa-angle-down"></i>
+  </label>
+  <input type="checkbox" id="rti" class="dropdown-checkbox">
+  <div class="dropdown-content">
+    <a href="#">Disclosure</a>
+  </div>
+</div>
+
+<!-- Alumni -->
+<div class="dropdown">
+  <label for="alumni" class="dropdown-btn">
+    Alumni <i class="fa-solid fa-angle-down"></i>
+  </label>
+  <input type="checkbox" id="alumni" class="dropdown-checkbox">
+  <div class="dropdown-content">
+    <a href="#">Connect</a>
+    <a href="#">Register</a>
+  </div>
+</div>
+
+<!-- Login -->
+<div class="dropdown">
+  <label for="login" class="dropdown-btn">
+    Login <i class="fa-solid fa-angle-down"></i>
+  </label>
+  <input type="checkbox" id="login" class="dropdown-checkbox">
+  <div class="dropdown-content">
+    <a href="#">Student Login</a>
+    <a href="#">Admin Login</a>
+  </div>
+</div>
+    </nav>
+  </header>
+    <!--DIV1-->
+  <main class="main-content">
+    <div class="slider-container">
+        <div class="slider">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1nRZfWA7N4jR3QQcMV8ZeOwx3SBfvBpeP2w&s" alt="Image 1" class="slide active">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg-hD51c3PaGWf6dOpphxSh61bZTusZIY0eXPbEbYiiKSo34cqkAWLrUfP&s=10" alt="Image 2" class="slide">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3hWvQuiLDpjX2zGaMmMXdX3OVseUOcgbmxReQtoJ748_UpU8TDvZwhei_&s=10" alt="Image 3" class="slide">
+        </div>
+        <div class="slider-controls">
+            <button class="prev-btn">❮</button>
+            <button class="next-btn">❯</button>
+        </div>
+    </div>
+    
+    <!--div 2 of main box div-->
+   <div class="right-box" style="border:0.5px solid #c9c8c7;,border-radius:3px;">
+     <div class="maindiv2bar">
+       <p style="text-align:left;font-size:14px;margin-left:20px;font-family:Montserrat;font-weight:520;color:#333333;">Latest News / Updates <button type="button" style="color:white;background:#3075B0;border:none;border-radius:5px;padding:6px 12px;margin-left:130px;margin-top:-20px;"> View More </button> </p>   
+     </div>
+     <div class="blankdiv1" ></div>
+     <div class="updatesdiv2">
+       <div class="updatesdiv2inside">
+         <button type="button" style="font-weight:500; color:black; border:1px solid #c5c7c5;background:white; " id="dateboxbubtton"><i class="fa-regular fa-clock"></i> Jul 16,2025</button>
+         <button type="button" class="newsbox" > News</button>
+         
+          NATS Vacancy Announcement
+       </div>
+       <div class="updatesdiv2inside">
+         <button type="button" style="font-weight:500; color:black; border:1px solid #c5c7c5;background:white; " id="dateboxbubtton"><i class="fa-regular fa-clock"></i> Jul 16,2025</button>
+         <button type="button" class="newsbox" > News</button>
+         <button type="button" class="noticebox"> Notice</button>
+          NATS RESULT
+       </div>
+       <div class="updatesdiv2inside">
+         <button type="button" style="font-weight:500; color:black; border:1px solid #c5c7c5;background:white; " id="dateboxbubtton"><i class="fa-regular fa-clock"></i> Jul 11,2025</button>
+         
+         <button type="button" class="noticebox"> Notice</button>
+          Notice regarding "Interview for selection of student representative"
+       </div>
+       <div class="updatesdiv2inside">
+         <button type="button" style="font-weight:500; color:black; border:1px solid #c5c7c5;background:white; " id="dateboxbubtton"><i class="fa-regular fa-clock"></i> Jul 10,2025</button>
+         <button type="button" class="newsbox" > News</button>
+         <button type="button" class="noticebox"> Notice</button>
+          Notice regarding "RBI-Ombudsman-Awareness-Program"
+       </div>
+       <div class="updatesdiv2inside">
+         <button type="button" style="font-weight:500; color:black; border:1px solid #c5c7c5;background:white; " id="dateboxbubtton"><i class="fa-regular fa-clock"></i> Jul 09,2025</button>
+         <button type="button" class="newsbox" > News</button>
+         <button type="button" class="noticebox"> Notice</button>
+         Notice regarding "UNDER GRADUATE ENGINEERING ADMISSION COUNCELLING (UGEAC)-2025 for 5-year full-time Bachelor of Architecture Course"
+       </div>
+       <div class="updatesdiv2inside">
+         <button type="button" style="font-weight:500; color:black; border:1px solid #c5c7c5;background:white; " id="dateboxbubtton"><i class="fa-regular fa-clock"></i> Jul 07,2025</button>
+         <button type="button" class="newsbox" > News</button>
+         <button type="button" class="noticebox"> Notice</button>
+          Notice regarding "Online Counselling BCECE [LE]-2025,"5.0"
+       </div>
+       <div class="updatesdiv2inside">
+         <button type="button" style="font-weight:500; color:black; border:1px solid #c5c7c5;background:white; " id="dateboxbubtton"><i class="fa-regular fa-clock"></i> Jul 05,2025</button>
+         <button type="button" class="newsbox" > News</button>
+         <button type="button" class="noticebox"> Notice</button>
+          Notice regarding "MSME Hackathon NATA PGETA 2025
+       </div>
+       <div class="updatesdiv2inside">
+         <button type="button" style="font-weight:500; color:black; border:1px solid #c5c7c5;background:white; " id="dateboxbubtton"><i class="fa-regular fa-clock"></i> Jun 24,2025</button>
+         <button type="button" class="newsbox" > News</button>
+         <button type="button" class="noticebox"> Notice</button>
+          NATA PGETA 2025
+       </div>
+       <div class="updatesdiv2inside">
+         <button type="button" style="font-weight:500; color:black; border:1px solid #c5c7c5;background:white; " id="dateboxbubtton"><i class="fa-regular fa-clock"></i> Jun 23,2025</button>
+         <button type="button" class="newsbox" > News</button>
+         <button type="button" class="noticebox"> Notice</button>
+          Important notice regarding "Dece[PE]-2025 online councelling"
+       </div>
+       <div class="updatesdiv2inside">
+         <button type="button" style="font-weight:500; color:black; border:1px solid #c5c7c5;background:white; " id="dateboxbubtton"><i class="fa-regular fa-clock"></i> Jun 23,2025</button>
+         <button type="button" class="newsbox" > News</button>
+         <button type="button" class="noticebox"> Notice</button>
+          Important notice regarding "DCECE[PE]-2025 online councelling"
+       </div>
+       <div class="updatesdiv2inside">
+         <button type="button" style="font-weight:500; color:black; border:1px solid #c5c7c5;background:white; " id="dateboxbubtton"><i class="fa-regular fa-clock"></i> Jun 17,2025</button>
+         <button type="button" class="newsbox" > News</button>
+         <button type="button" class="noticebox"> Notice</button>
+          Notice regarding ""Important Dates fot UGEAC 2025 [B.Arch]"
+       </div>
+       <div class="updatesdiv2inside">
+         <button type="button" style="font-weight:500; color:black; border:1px solid #c5c7c5;background:white; " id="dateboxbubtton"><i class="fa-regular fa-clock"></i> May 26,2025</button>
+         <button type="button" class="newsbox" > News</button>
+         <button type="button" class="noticebox"> Notice</button>
+          Notice regarding Institute Development Fee
+       </div>
+       <div class="updatesdiv2inside">
+         <button type="button" style="font-weight:500; color:black; border:1px solid #c5c7c5;background:white; " id="dateboxbubtton"><i class="fa-regular fa-clock"></i> May 25,2025</button>
+         <button type="button" class="newsbox" > News</button>
+         <button type="button" class="noticebox"> Notice</button>
+          NATS Vacancy Announcement (Walk-in Interview schedule on 02 July 2025)
+       </div>
+       <div class="updatesdiv2inside">
+         <button type="button" style="font-weight:500; color:black; border:1px solid #c5c7c5;background:white; " id="dateboxbubtton"><i class="fa-regular fa-clock"></i> May 22,2025</button>
+         <button type="button" class="newsbox" > News</button>
+         <button type="button" class="noticebox"> Notice</button>
+          Result of NATS Walk-in Interview held on 16-05-2025
+       </div>
+       <div class="updatesdiv2inside">
+         <button type="button" style="font-weight:500; color:black; border:1px solid #c5c7c5;background:white; " id="dateboxbubtton"><i class="fa-regular fa-clock"></i> May 12,2025</button>
+         <button type="button" class="newsbox" > News</button>
+         <button type="button" class="noticebox"> Notice</button>
+          Notice regarding Reschedule of National conference COIST-2025"
+       </div>
+       <div class="updatesdiv2inside">
+         <button type="button" style="font-weight:500; color:black; border:1px solid #c5c7c5;background:white; " id="dateboxbubtton"><i class="fa-regular fa-clock"></i> Jul 16,2025</button>
+         <button type="button" class="newsbox" > News</button>
+         <button type="button" class="noticebox"> Notice</button>
+          
+       </div>
+       <div class="updatesdiv2inside">
+         <button type="button" style="font-weight:500; color:black; border:1px solid #c5c7c5;background:white; " id="dateboxbubtton"><i class="fa-regular fa-clock"></i> Jul 16,2025</button>
+         <button type="button" class="newsbox" > News</button>
+         <button type="button" class="noticebox"> Notice</button>
+          
+       </div>
+
+     </div>
+   </div> 
+     
+     <!--div 3 of main box div-->
+   <div class="bottom-box">
+    <div class="marquee-container">
+      <a href="#" class="marquee-link" style="color:black;text-decoration: underline;">Important Dates for UGEAC-2025 [B.Arch.] </a>
+      <a href="#" style="color:blue;">National Conference COIFT-</a>
+      <a href="#" style="text-decoration:none;font-weight:550;color:red;">Reschedule for September 12,13,2025 abstract/full lenght paper/registration open till 31th july 2025</a> 
+    </div>
+   </div>
+    
+  </main>
+  
+  <!--Below secrion divs -->
+  <section>
+    <div class="gcesection1">
+      <div>
+        <p>Welcome to GCE Gaya</p>
+      </div>
+     <div id="gcesection1text">
+      <span style="font-weight:630;">Gaya College Of Engineering(GCE) Gaya</span> Allure the best of minds who are selected through tough competitive examination organised by BCECEB every year.
+      It was Inaugurated by the honourable CM Nitish Kumar in 2008 , it was started as an institution to provide technical education in respective disciplines Civil Engineering , Mechanical Engineering, Electrical & Electronics Engineering , Computer Science & Engineering for the purpose of imparting B.tech degrees.
+      It is situated in the land of Enlightenment & Salvation Gaya (Bihar), 82 Kms south of Patna having campus area of 87 acres. The college has links with reputed universities and colleges of states. It has the Alumni base in about all renowned Companies & firms.
+    </div>
+    </div> <!--main-->
+    <div class="gcesection2">
+      <!-- index.html -->
+      <div class="gecsection2template">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJMNO22-PnB5T7Vb9EpM20uR2G7UU2uL9GGnqsZ2PHjrXVivLoURtOalA&s=10" alt="Sample Image">
+        <div class="greybar">BIS Academic Dashboard</div>
+      </div>
+      <div class="gecsection2template">
+        <img src="https://storage.googleapis.com/swayam2_central/assets/img/swayam_logo.png" alt="Sample Image">
+        <div class="greybar">SWAYAM</div>
+      </div>
+      <div class="gecsection2template">
+        <img src="https://via.placeholder.com/500x280" alt="Sample Image">
+        <div class="greybar"></div>
+      </div>
+      <div class="gecsection2template">
+        <img src="https://via.placeholder.com/500x280" alt="Sample Image">
+        <div class="greybar"></div>
+      </div>
+      <div class="gecsection2template">
+        <img src="https://via.placeholder.com/500x280" alt="Sample Image">
+        <div class="greybar"></div>
+      </div>
+      <div class="gecsection2template">
+        <img src="https://via.placeholder.com/500x280" alt="Sample Image">
+        <div class="greybar"></div>
+      </div>
+      <div class="gecsection2template">
+        <img src="https://via.placeholder.com/500x280" alt="Sample Image">
+        <div class="greybar"></div>
+      </div>
+      <div class="gecsection2template">
+        <img src="https://via.placeholder.com/500x280" alt="Sample Image">
+        <div class="greybar"></div>
+      </div>
+      <div class="gecsection2template">
+        <img src="https://via.placeholder.com/500x280" alt="Sample Image">
+        <div class="greybar"></div>
+      </div>
+      <div class="gecsection2template">
+        <img src="https://via.placeholder.com/500x280" alt="Sample Image">
+        <div class="greybar"></div>
+      </div>
+      <div class="gecsection2template">
+        <img src="https://via.placeholder.com/500x280" alt="Sample Image">
+        <div class="greybar"></div>
+      </div> 
+    </div> <!--main div of section 2-->
+    
+    <div class="gcesection3">
+      <div>
+        <button id="gcesection3buttons" type="button" style="background:#098cc4;"><i class="fa-solid fa-bullhorn"></i> Notices</button>
+        <button id="gcesection3buttons" type="button" style="background:#ec8d1f;"><i class="fa-solid fa-business-time"></i> Tenders</button>
+        <button id="gcesection3buttons" type="button" style="background:#646263;"><i class="fa-solid fa-road"></i> Placement</button>
+        <button id="gcesection3buttons"type="button" style="background:#7ba734;"><i class="fa-solid fa-award"></i> Awards & Accolades</button>
+        <button id="gcesection3buttons"type="button" style="background:#285691;"><i class="fa-solid fa-handshake"></i> Proceeding Meeting</button>
+        <div class="thecontainerdivsec3">
+          <div class="gcesec3buttonbelowbar"></div>
+          <div class="gcesec3buttonbelowdiv"></div>
+          <div class="gcesec3buttonbelowdiv"></div>
+          <div class="gcesec3buttonbelowdiv"></div>
+          <div class="gcesec3buttonbelowdiv"></div>
+          <div class="gcesec3buttonbelowdiv"></div>
+        </div>
+      </div>
+    </div> <!--main div of section 3-->
+    
+    <div class="gcesection4"></div>
+    <div class="gcesection5"></div>
+    <div class="gcesection6"></div>
+  </section>
+  <footer>
+    <div class="gcefooter1"></div>
+    <div class="gcefooter2"></div>
+  </footer>
+</body>
+</html>
