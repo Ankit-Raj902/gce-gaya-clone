@@ -1,0 +1,419 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.logo-text-container{
+  display:flex; /*to keep two div in single line*/
+}
+.geclogo{
+  height:100px;
+  width:100px;
+  overflow:hidden; /*Ensures img doesnt overflow*/
+  padding-left:100px;
+  padding-right:20px;
+}
+.geclogo img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%; /* Round image */
+  object-fit: contain; /* FULL image visible (no crop) */
+}
+
+#gcegayatext{
+  color:#333333;
+  font-family:'Roboto Condensed', sans-serif	;
+  transform: scaleY(1.3); /* Height ko stretch karega */
+  font-weight:480;
+  margin-bottom:0px;
+}
+#gcedept{
+  font-family:'Montserrat', sans-serif	;
+  transform: scaleX(0.88);
+  margin-left: -21px;
+  margin-top:2px;
+  font-size: 12px;
+  font-weight: 370;
+}
+
+.head nav {
+  height: 100px;
+  background: #285691;
+  display: flex;
+  flex-wrap:wrap;
+  padding: 0 110px 0;
+  z-index: 1001;
+}
+
+
+
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
+.slider-container {
+    position: relative;
+    width: 892px;
+    height: 600px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    
+}
+    /* Div 1 */
+.slider {
+  /*width: 67%;*/
+  height: 600px;
+  display: flex;
+  position: relative;
+  
+}
+
+.slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(100%);
+  object-fit: cover;
+}
+
+.slide.active {
+    transform: translateX(0);
+}
+
+.slide.prev {
+    transform: translateX(-100%);
+}
+
+.slider-controls {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+
+.slider-controls button {
+    background: rgba(255, 255, 255, 0.5);
+    border: none;
+    padding: 10px 15px;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 0 10px;
+    transition: background 0.3s;
+}
+
+.slider-controls button:hover {
+    background: rgba(255, 255, 255, 0.8);
+}
+
+
+/* Div 3 - below both */
+.bottom-box {
+  width: 100%;
+  height: 72px;
+  background-color: white;
+  overflow: hidden; /* Hide overflowing text */
+  position: relative;
+  
+  
+}
+
+.marquee-container {
+    position: absolute;
+    white-space: nowrap; /* Keep text in single line */
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.marquee-link {
+    color: #285691; /* Match your header color */
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    padding: 0 20px;
+    transition: color 0.3s;
+}
+
+.marquee-link:hover {
+    color: #1a3a6b; /* Darker shade on hover */
+    text-decoration: underline;
+}
+
+/* Hide the checkbox */
+.dropdown-checkbox {
+    display: none;
+}
+
+/* Dropdown container */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin: 0;
+  flex-wrap: wrap;
+}
+
+/* Dropdown button style */
+.dropdown-btn {
+  color:white;
+  font-size: 13px;
+  margin: 15px;
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.dropdown-btn i{
+  padding:3.5px;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: white;
+    min-width: 160px;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.2);
+    z-index: 1000;
+}
+
+/* Links inside dropdown */
+.dropdown-content a {
+    color: #333;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color on hover */
+.dropdown-content a:hover {
+    background: #f5f5f5;
+}
+
+/* Rotate icon when dropdown is open */
+.dropdown-checkbox:checked + .dropdown-content {
+    display: block;
+}
+
+/* Div 2 */
+.right-box {
+  width: 33%;
+  height: 600px;
+}
+
+.maindiv2bar{
+  height:45px;
+  border: 1px solid #ececec;
+  border-radius: 3px;
+  background: #ECECEC;
+  box-shadow: 1px 1px #ececec;
+}
+.maindivbar2 p button{
+  background: #285691;
+}
+
+.blankdiv1{
+  height:20px;
+}
+
+.updatesdiv2{
+  overflow-y: auto;
+  position:relative;
+  width:100%;
+  height:600px;
+  
+  will-change: transform;
+  
+}
+
+.updatesdiv2 div{
+  /*height:35px;*/
+  margin-left: 16px;
+  margin-right: 15px;
+  padding: 10px 0;
+  border-bottom: 1.5px dotted #ececec;
+  
+}
+
+.updatesdiv2inside{
+  width:100%
+  font-family:'Montserrat', sans-serif	;
+  color:#333333;
+  /*font-weight: 400;*/
+  font-size:13px;
+  
+  will-change: transform;
+  transition: none;
+  
+}
+.updatesdiv2inside button {
+  align-self: top;
+  color:white;
+  border:none;
+  border-radius:2px;
+  font-size:10px;
+  font-weight:600;
+  font-family:'Montserrat', sans-serif	;
+  padding:4px 6px;
+  }
+.newsbox{
+  background:steelblue;
+}
+.noticebox{
+  background:#eead4c;
+}
+
+
+
+
+.gcesection1{
+  margin:0px;
+  height: 200px;
+  background:#eeeeee;
+  padding-left:70px ;
+  padding-right:70px ;
+  padding-bottom:70px;
+}
+
+.gcesection1 p {
+  font-size: 28px;
+  padding-top: 20px;
+  padding-bottom: -5px;
+  color:#333333;
+}
+
+#gcesection1text{
+  font-size: 13px;
+  word-spacing: 2px;
+  text-align: justify;
+  line-height: 1.8;
+  color:#333333;
+  
+}
+
+.gcesection2{
+  height: 600px;
+  background:#285691;
+  padding: 50px;
+  
+  display: flex;
+  flex-wrap: wrap;
+  /*gap: 20px; /* space between boxes */
+  /*justify-content: center;*/
+  text-align: justify;
+  /*padding: 20px;*/
+  
+
+}
+/* style.css */
+
+.gecsection2template {
+  width: 250px;
+  height: 150px;
+  background-color: white;
+  border: 1px solid #ccc;
+  position: relative;
+  overflow: hidden;
+  
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+  border-radius: 2px;
+  margin: 0 20px;
+}
+
+.gecsection2template img {
+  width: 100%;
+  height: calc(300px - 20px); /* 280px for image */
+  object-fit: cover;
+  
+  /*height: calc(150px - 20px); /* 130px image */
+}
+
+.greybar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 30px;
+  background-color: #666666;
+  color:white;
+  align-content: center;
+  padding-left:5px;
+  font-family:'Montserrat', sans-serif	;
+  font-size: 14px;
+}
+
+
+
+.gcesection3{
+  height: 1660px;
+  padding: 50px 100px;
+}
+
+.gcesection4{
+  height: 360px;
+  background:#285691;
+}
+.gcesection5{
+  height: 410px;
+  
+}
+.gcesection6{
+  height: 630px;
+  background:#183351;
+}
+
+
+.gcefooter1{
+  height: 186px;
+  
+}
+
+.gcefooter2{
+  height: 65px;
+  background: #333333;
+}
+
+#gcesection3buttons{
+  display: inline-block;     /* Important for auto width & height */
+  padding: 13px 16px;        /* Bigger padding makes bigger button */
+  font-size: 12px;           /* Bada font -> bada button feel */
+  font-family:'Montserrat', sans-serif	;
+  color:white;
+  border-radius: 3px;
+  cursor: pointer;
+  border:none;
+  white-space: nowrap;       /* Text ek line me rahe */
+  transition: background 0.2s;
+}
+
+
+
+
+.gcesec3buttonbelowdiv{
+  height: 10px;
+  width: 710px;
+  border:1px black;
+  background: red;
+}
+
+.thecontainerdivsec3{
+  height: 500px;
+  width:710px;
+}
+
+.gcesec3buttonbelowbar{
+  height:4px;
+  width:710px;
+  background: #098cc4;
+}
